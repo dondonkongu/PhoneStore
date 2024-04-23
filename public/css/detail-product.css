@@ -1,0 +1,132 @@
+.text-left {
+    font-size: 1.5rem;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.promotion {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+
+}
+
+
+.swipper-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.bi-youtube {
+    font-size: 30px;
+    color: red;
+}
+
+.col-md-8 {
+    height: 450px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin: 60px 0;
+}
+
+.order-button {
+    height: 60px;
+}
+
+.order-button p {
+    font-size: 13px;
+}
+
+.add-to-cart-button p {
+    font-size: 7.5px;
+}
+
+.title-table {
+    text-align: center;
+    font-size: 1rem;
+
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .col-md-8 {
+        height: auto;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    #carouselExampleIndicators iframe,
+    #carouselExampleIndicators img {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin: 20px 0;
+    }
+}
+
+.hr-divider {
+    border-top: 2px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-buy .btn {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.technical-table {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.box-promotion {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.box-promotion p {
+    background-color: #f8d7da;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 10px;
+    color: red;
+
+}
+
+.box-promotion ul {
+    padding: 10px;
+}
+
+.description-box,
+.fag-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
